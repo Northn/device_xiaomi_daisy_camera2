@@ -2165,6 +2165,9 @@ typedef enum {
     /* parameter for enabling DCRF */
     CAM_INTF_PARM_DCRF,
     /* metadata tag for DCRF info */
+
+    XIAOMI_01,
+    
     CAM_INTF_META_DCRF,
     /* FLIP mode parameter*/
     CAM_INTF_PARM_FLIP,
@@ -2234,6 +2237,14 @@ typedef enum {
     CAM_INTF_META_SPOT_LIGHT_DETECT,
     /* HAL based HDR*/
     CAM_INTF_PARM_HAL_BRACKETING_HDR,
+
+    XIAOMI_02,
+    XIAOMI_03,
+    XIAOMI_O4,
+    XIAOMI_05,
+    XIAOMI_06,
+    XIAOMI_07,
+
     CAM_INTF_PARM_MAX
 } cam_intf_parm_type_t;
 
