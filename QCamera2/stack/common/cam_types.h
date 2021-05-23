@@ -1248,6 +1248,7 @@ typedef struct {
     cam_dimension_t fd_frame_dim;              /* frame dims on which fd is applied */
     uint8_t update_flag;                       /* flag to inform whether HAL needs to send cb
                                                 * to app or not */
+    volatile char xiaomi_01[160];
 } cam_face_detection_data_t;
 
 // definition of composite face detection data
@@ -1271,8 +1272,6 @@ typedef struct {
 
     int8_t contour_valid;
     cam_face_contour_data_t contour_data;
-
-    volatile char xiaomi_01[160];
 } cam_faces_data_t;
 
 #define CAM_HISTOGRAM_STATS_SIZE 256
