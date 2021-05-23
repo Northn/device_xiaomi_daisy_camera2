@@ -2153,11 +2153,11 @@ typedef enum {
     /* fetch calibration info for related cam subsystem */
     CAM_INTF_PARM_RELATED_SENSORS_CALIBRATION,
     /* focal length ratio info */
-    CAM_INTF_META_AF_FOCAL_LENGTH_RATIO,
-    /* crop for binning & FOV adjust */
 
     XIAOMI_01,
 
+    CAM_INTF_META_AF_FOCAL_LENGTH_RATIO,
+    /* crop for binning & FOV adjust */
     CAM_INTF_META_SNAP_CROP_INFO_SENSOR,
     /* crop for trimming edge pixels */
     CAM_INTF_META_SNAP_CROP_INFO_CAMIF,
