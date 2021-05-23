@@ -2155,6 +2155,9 @@ typedef enum {
     /* focal length ratio info */
     CAM_INTF_META_AF_FOCAL_LENGTH_RATIO,
     /* crop for binning & FOV adjust */
+
+    XIAOMI_01,
+
     CAM_INTF_META_SNAP_CROP_INFO_SENSOR,
     /* crop for trimming edge pixels */
     CAM_INTF_META_SNAP_CROP_INFO_CAMIF,
@@ -2165,9 +2168,6 @@ typedef enum {
     /* parameter for enabling DCRF */
     CAM_INTF_PARM_DCRF,
     /* metadata tag for DCRF info */
-
-    XIAOMI_01,
-    
     CAM_INTF_META_DCRF,
     /* FLIP mode parameter*/
     CAM_INTF_PARM_FLIP,
