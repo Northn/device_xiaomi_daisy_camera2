@@ -1466,7 +1466,7 @@ typedef enum {
 typedef struct {
   uint32_t is_hdr_scene;
   float    hdr_confidence;
-  uint32_t xiaomi_02;
+  volatile uint32_t xiaomi_02;
 } cam_asd_hdr_scene_data_t;
 
 typedef struct {
