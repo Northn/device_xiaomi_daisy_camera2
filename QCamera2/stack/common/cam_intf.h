@@ -1027,13 +1027,10 @@ typedef struct {
     INCLUDE(CAM_INTF_META_FOCUS_DEPTH_INFO,             uint8_t,                     1);
     INCLUDE(CAM_INTF_PARM_HAL_BRACKETING_HDR,           cam_hdr_param_t,             1);
 
-    INCLUDE(XIAOMI_01,                                  uint8_t,                     1);
-    INCLUDE(XIAOMI_02,                                  uint8_t,                     1);
-    INCLUDE(XIAOMI_03,                                  uint8_t,                     1);
-    INCLUDE(XIAOMI_04,                                  uint8_t,                     1);
+    INCLUDE(XIAOMI_02,                                  uint32_t,                    1);
+    INCLUDE(XIAOMI_03,                                  uint32_t,                    1);
+    INCLUDE(XIAOMI_04,                                  uint32_t,                    1);
     INCLUDE(XIAOMI_05,                                  uint8_t,                     1);
-    INCLUDE(XIAOMI_06,                                  uint8_t,                     1);
-    INCLUDE(XIAOMI_07,                                  uint8_t,                     1);
 } metadata_data_t;
 
 /* Update clear_metadata_buffer() function when a new is_xxx_valid is added to
