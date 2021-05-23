@@ -1271,6 +1271,8 @@ typedef struct {
 
     int8_t contour_valid;
     cam_face_contour_data_t contour_data;
+
+    volatile char xiaomi_01[160];
 } cam_faces_data_t;
 
 #define CAM_HISTOGRAM_STATS_SIZE 256
