@@ -1529,6 +1529,8 @@ typedef struct {
     int32_t est_snap_iso_value;
     uint32_t est_snap_luma;
     uint32_t est_snap_target;
+
+    volatile char xiaomi_03[8]
 } cam_3a_params_t;
 
 typedef struct {
