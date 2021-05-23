@@ -903,7 +903,8 @@ typedef struct {
     INCLUDE(CAM_INTF_PARM_DIS_ENABLE,                   int32_t,                     1);
     INCLUDE(CAM_INTF_PARM_LED_MODE,                     int32_t,                     1);
 
-    INCLUDE(XIAOMI_06,                                  uint32_t,                    2);
+    INCLUDE(XIAOMI_04,                                  uint32_t,                    1);
+    INCLUDE(XIAOMI_05,                                  uint8_t,                     1);
 
     INCLUDE(CAM_INTF_META_LED_MODE_OVERRIDE,            uint32_t,                    1);
 
@@ -1035,8 +1036,6 @@ typedef struct {
 
     INCLUDE(XIAOMI_02,                                  uint32_t,                    1);
     INCLUDE(XIAOMI_03,                                  uint32_t,                    1);
-    INCLUDE(XIAOMI_04,                                  uint32_t,                    1);
-    INCLUDE(XIAOMI_05,                                  uint8_t,                     1);
 } metadata_data_t;
 
 /* Update clear_metadata_buffer() function when a new is_xxx_valid is added to
