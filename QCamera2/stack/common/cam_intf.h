@@ -197,9 +197,6 @@ typedef struct{
     cam_flash_mode_t supported_flash_modes[CAM_FLASH_MODE_MAX];
 
     size_t zoom_ratio_tbl_cnt;                              /* table size for zoom ratios */
-
-    volatile char xiaomi_01[328];
-    
     uint32_t zoom_ratio_tbl[MAX_ZOOMS_CNT];                 /* zoom ratios table */
 
     /* supported effect modes */
@@ -256,6 +253,8 @@ typedef struct{
 
     uint8_t video_stablization_supported; /* flag id video stablization is supported */
 
+    volatile char xiaomi_01[324];
+    
     size_t picture_sizes_tbl_cnt;                           /* picture sizes table size */
     cam_dimension_t picture_sizes_tbl[MAX_SIZES_CNT];       /* picture sizes table */
     /* The minimum frame duration that is supported for each
