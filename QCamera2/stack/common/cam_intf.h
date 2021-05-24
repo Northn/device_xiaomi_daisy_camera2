@@ -257,6 +257,9 @@ typedef struct{
     
     size_t picture_sizes_tbl_cnt;                           /* picture sizes table size */
     cam_dimension_t picture_sizes_tbl[MAX_SIZES_CNT];       /* picture sizes table */
+
+    volatile char xiaomi_02[4];
+    
     /* The minimum frame duration that is supported for each
      * resolution in availableProcessedSizes. Should correspond
      * to the frame duration when only that processed stream
