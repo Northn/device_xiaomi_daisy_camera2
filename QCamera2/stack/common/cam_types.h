@@ -1530,7 +1530,7 @@ typedef struct {
     uint32_t est_snap_luma;
     uint32_t est_snap_target;
 
-    volatile char xiaomi_03[8]
+    volatile char xiaomi_03[8];
 } cam_3a_params_t;
 
 typedef struct {
